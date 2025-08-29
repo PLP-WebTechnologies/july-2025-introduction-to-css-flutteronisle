@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.main-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+/* Card Sections */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Headings and Paragraphs */
+h1, h2 {
+    margin: 0 0 10px 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Button */
+.cta-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: #e94e77;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #d73a5a;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
